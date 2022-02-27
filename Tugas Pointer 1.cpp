@@ -22,5 +22,5 @@ int main() {
  p3=&b;
  cout<<"Alamat p3 :"<<p3<<"\n";
  *p2=8;
- cout<<"*p2 :"<<*p2<<"\n";
+ cout<<"Nilai p2 :"<<*p2<<"\n";
 }
