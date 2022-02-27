@@ -16,7 +16,7 @@ int main() {
  p2=&b;
  cout<<"Alamat p2 :"<<p2<<"\n";
  *p1= c;
- cout<<"Nilai p1 :"<<p1<<"\n";
+ cout<<"Nilai p1 :"<<*p1<<"\n";
  a=*p2;
  cout<<"Nilai a :"<<a<<"\n";
  b=6;
@@ -26,6 +26,6 @@ int main() {
  p3=&c;
  cout<<"Alamat p3 :"<<p3<<"\n";
  *p1=*p3;
- cout<<"Nilai p1 :"<<*p3<<"\n";
- cout<<"Nilai p3 :"<<*p1<<"\n";
+ cout<<"Nilai p1 :"<<*p1<<"\n";
+ cout<<"Nilai p3 :"<<*p3<<"\n";
 }
