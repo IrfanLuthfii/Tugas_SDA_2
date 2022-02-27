@@ -9,12 +9,12 @@ int main() {
  cout<<"Nilai a :"<<a<<"\n";
  b=15;
  cout<<"Nilai b :"<<b<<"\n";
- c=27;
- cout<<" Nilai c :"<<c<<"\n";
  p1=&b;
  cout<<"Alamat p1 :"<<p1<<"\n";
  p2=p1;
  cout<<"Alamat p2 :"<<p2<<"\n";
+ c=27;
+ cout<<" Nilai c :"<<c<<"\n";
  p1=&c;
  cout<<"Alamat p1 :"<<p1<<"\n";
  a=*p1;
